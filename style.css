@@ -1,0 +1,70 @@
+html, body{
+    height: 100%;
+    margin: 0;
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16 px;
+    font-family: 'Figtree', Arial, sans-serif;
+}
+
+#image{
+    max-width: 100%;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+.container {
+    background-color: hsl(0, 0%, 100%);
+    padding:20px;
+    border-radius: 10px ;
+    width: 300px;
+    text-align: left;
+    border-color: black;
+    border-style: solid;
+    box-shadow: 1px 8px 20px 1px;
+}
+
+#learning {
+    background-color: hsl(47, 88%, 63%);
+    text-align: left;
+    
+    border-radius: 3px;
+    padding: 4px 8px 4px 8px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display: inline-block;
+
+}
+
+#published_date{
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#title{
+    font-weight: bold;
+    margin-bottom: 10px;
+    font-size: 1.25em;
+}
+
+#description{
+    color: hsl(0, 0%, 50%);
+    margin-bottom: 10px;
+
+}
+
+#name{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+#name img {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
